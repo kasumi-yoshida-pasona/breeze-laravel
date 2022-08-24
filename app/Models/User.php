@@ -35,9 +35,9 @@ class User extends Authenticatable
         'remember_token',
     ];
 
-    public $encryptable = [ 
-        'email'
-    ];
+    // public $encryptable = [ 
+    //     'email'
+    // ];
 
     /**
      * The attributes that should be cast.
